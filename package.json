@@ -10,6 +10,7 @@
     "test": "pnpm -r --if-present run test",
     "build": "pnpm -r --if-present run build",
     "dev": "pnpm -r --if-present run dev",
-    "typecheck": "pnpm -r --if-present run typecheck"
+    "typecheck": "pnpm -r --if-present run typecheck",
+    "services:offchain": "pnpm -C packages/services start"
   }
 }
